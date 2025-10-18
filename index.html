@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Lista de Tareas</h1>
+  <div class="controls">
+    <input type="text" id="tareaInput" placeholder="Nueva tarea" />
+    <button id="agregarBtn">Agregar</button>
+    <select id="filtro">
+      <option value="todas">Todas</option>
+      <option value="completadas">Completadas</option>
+      <option value="pendientes">Pendientes</option>
+    </select>
+  </div>
+  <ul id="listaTareas"></ul>
+</body>
+</html>

@@ -1,0 +1,8 @@
+ /* Estilos básicos */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #121213, #3f4041, #2f3131);
+    margin: 0;
+    padding: 20px;
+}
